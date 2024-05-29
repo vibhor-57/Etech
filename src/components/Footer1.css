@@ -1,0 +1,25 @@
+.footercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(176, 107, 251),rgb(247, 163, 188));
+    width: 100%;
+}
+.footercontainer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footercontainer div img{
+    width: 28%;
+    height: fit-content;
+}
+.footercontainer div h1{
+    color: white;
+}
+.footercodecov{
+    width: 18%;
+}

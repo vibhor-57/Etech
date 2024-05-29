@@ -1,0 +1,94 @@
+.teachercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    gap: 340px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.teachercontainer div {
+    flex: 1;
+}
+
+.teacherleft {
+    max-width: 40vw;
+    margin-left: 5vw;
+}
+
+.teacherleft h1 {
+    font-size: 55px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.teacherleft p {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+}
+
+.teacherleft button {
+    background-image: linear-gradient(to bottom right, rgb(176, 107, 251),rgb(247, 163, 188));
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.teacherperks {
+    list-style-type: disc;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.teacherperks li {
+    width: 40%;
+    margin: 10px 0px;
+    font-size: 24px;
+}
+
+.teacherperks li::marker {
+    color: purple;
+    font-size: 30px;
+}
+
+.teacherimagecontainer {
+    display: inline-block;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border: 2px dashed purple;
+    padding: 10px;
+    margin-right: 90px;
+    margin-top: 90px;
+    box-sizing: border-box; 
+    max-width: 430px; 
+    margin-bottom: 40px;
+}
+.teacherimage{
+    background-image: linear-gradient(to bottom right, rgb(176, 107, 251),rgb(247, 163, 188));
+    background-color: purple;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border: 2px dashed  purple;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teacherimage img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}

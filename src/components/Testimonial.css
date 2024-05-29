@@ -1,0 +1,32 @@
+.testimonialcontainer{
+    background-image: linear-gradient(to bottom right, rgb(176, 107, 251),rgb(247, 163, 188));
+    width: 102%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonialcontainer h1{
+    font-size: 55px;
+    color: white;
+    margin-bottom:10px;
+}
+.testimonialcontainerp{
+    font-size: 30px;
+    color: white;
+    margin-bottom:10px;
+    max-width: 60vw;
+    margin-top: 20px;
+}
+
+.testimonialelements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin: 20px;
+    margin-top: 70px;
+}

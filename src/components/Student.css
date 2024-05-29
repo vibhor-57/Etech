@@ -1,0 +1,47 @@
+.studentcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 16vw;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10%;
+}
+.studentupper {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.studentupper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.studentupper img {
+    max-width: 10px;
+    height: auto;
+}
+
+.studentimage img{
+    border: 2px solid purple;
+    border-radius: 100%;
+    max-width: 5vw;
+}
+
+.studentrating {
+    display: flex;
+    gap: 5px;
+}
+
+.studentuppertext h3 {
+    margin: 0px;
+}
+

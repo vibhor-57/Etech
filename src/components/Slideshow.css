@@ -1,0 +1,30 @@
+.slidecontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin: 20px;
+    margin-top: 70px;
+}
+.slideshowcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.slideshowcontrols span{
+    font-size: 23px;
+color: white;
+}
+.slideshowcontrols button{
+    font-size: 20px;
+    border: none;
+    background-color: rgb(222 144 199);
+opacity: 90%;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+}

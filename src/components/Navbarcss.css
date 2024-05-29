@@ -1,0 +1,157 @@
+.navbar-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #00000000;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container {
+    display: flex;
+    background-color: #43060600;
+    z-index: 1;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-left {
+    display: flex;
+    text-align: center;
+    align-items: left;
+    width: auto;
+}
+
+.navbar-mid {
+    border-radius: 20px;
+    width: max-content;
+    margin: 0px 24px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* border: 1px solid red; */
+    padding: 0px;
+}
+
+.navbar-navbar {
+    width: inherit;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    padding: 0px;
+}
+
+.navbar-navbar li {
+    padding: 0px 8px;
+    list-style-type: none;
+    position: relative;
+}
+
+.navbar-navbar li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    right: 0%;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    z-index: 1000;
+    padding: 0px;
+    border: 2px solid black;
+}
+
+.navbar-dropdown-menu li {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d5000000;
+    justify-content: left;
+}
+
+.navbar-dropdown-menu li link{
+    padding: 1000000px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar-dropdown-menu li:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar-dropdown-arrow{
+    font-size: 15px;
+    margin: 2px;
+    margin-top: 7px;
+}
+
+.navbar-btn {
+    margin: 0px 9px;
+    padding: 0px 14px;
+    border: 2px solid rgba(223, 45, 223, 0.437);
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+    height: min-content;
+}
+
+.navbar-btn Link {
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar-loginbtn{
+    background-color: white;
+}
+#navbar-signinbtn{
+    background-color: white;
+    background-image: linear-gradient(to bottom right, rgb(176, 107, 251),rgb(247, 163, 188));
+}
+
+.navbar-btn  h6 {
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:0px;
+}

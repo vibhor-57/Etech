@@ -1,0 +1,273 @@
+.homecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+.hometext {
+    width: 30vw;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.hometext h1 {
+    font-size: 75px;
+    padding: 0px, 0px;
+}
+
+.hometext p {
+    font-size: 25px;
+}
+
+.homebuttonconatiner {
+    display: flex;
+    flex: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.homelinkcontainer {
+    display: flex;
+    flex: row;
+    flex-wrap: nowrap;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.homelinkcontainer a {
+    /* text-decoration: none; */
+    color: black;
+    font-size: 30px;
+}
+
+.homebutton{
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, rgb(176, 107, 251),rgb(247, 163, 188));
+    border-radius: 10px;
+    color: white;
+}
+.homebutton p{
+    font-size: 26px;
+}
+
+.homeplaybtn {
+    height: 3vh;
+    width: 1.5vw;
+    background-image: linear-gradient(to bottom right, rgb(176, 107, 251),rgb(247, 163, 188));
+    background-color: purple;
+    border-radius: 100%;
+    padding: 7px;
+}
+
+
+.homert {
+    width: 55vw;
+    position: relative;
+}
+
+.homertbgimage {
+    height: 80vh;
+    background-image: url("C:/Users/vibhor bhatia/Downloads/front end project/my-app/src/images/girl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: top;
+}
+
+.homertimg1,
+.homertimg2,
+.homertimg3 {
+    position: absolute;
+}
+
+.homertimg1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    top: 20%;
+    left: 10%;
+    background-color: rgba(128, 128, 128, 0.313);
+    border-radius: 10px;
+}
+
+.homertimg1 div img {
+    border-radius: 100%;
+    width: 140px;
+    margin-right: 16px;
+}
+
+.homertimg1div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.homertimg1div h4 {
+    margin: 0px;
+    margin-bottom: 7px;
+    font-size: 25px;
+}
+
+.homertimg1div p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.homertimg2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    top: 38%;
+    /* Adjust this value to control the vertical position */
+    left: 60%;
+    /* Adjust this value to control the horizontal position */
+    background-color: rgba(128, 128, 128, 0.313);
+    border-radius: 10px;
+}
+
+.homertimg2 h4 {
+    margin: 0px;
+    margin-top: 13px;
+    margin-bottom: 3px;
+    font-size: 25px;
+}
+
+.homertimg2 p {
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.homertimg2 img {
+    width: 240px;
+}
+
+.homertimg3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    top: 73%;
+    /* Adjust this value to control the vertical position */
+    left: 11%;
+    /* Adjust this value to control the horizontal position */
+    background-color: rgba(128, 128, 128, 0.313);
+    border-radius: 10px;
+}
+
+.homertimg3div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homertimg3div h4 {
+    margin: 0px;
+    margin-bottom: 7px;
+    font-size: 25px;
+}
+
+.homertimg3div p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.homertimg3 div img {
+    border-radius: 100%;
+    width: 140px;
+    margin-right: 20px;
+}
+
+.homertimg3 button {
+    margin-top: 10px;
+}
+
+
+/* @media (min-width: 1000px) {
+    .homecontainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .hometext {
+        width: 30vw;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .hometext h1 {
+        font-size: 3vw;
+    }
+
+    .hometext p {
+        font-size: 1.5vw;
+    }
+
+    .homebuttoncontainer {
+        flex-direction: row;
+        gap: 5vw;
+    }
+
+    .homelinkcontainer a {
+        font-size: 1.5vw;
+    }
+
+    .homebutton {
+        font-size: 1.5vw;
+    }
+
+    .homeplaybtn {
+        height: 3vh;
+        width: 1.5vw;
+    }
+
+    .homert {
+        width: 55vw;
+    }
+
+    .homertbgimage {
+        height: 80vh;
+    }
+
+    .homertimg1 div img,
+    .homertimg3 div img {
+        width: 140px;
+    }
+
+    .homertimg2 img {
+        width: 240px;
+    }
+
+    .homertimg1div h4,
+    .homertimg3div h4,
+    .homertimg2 h4 {
+        font-size: 25px;
+    }
+
+    .homertimg1div p,
+    .homertimg3div p,
+    .homertimg2 p {
+        font-size: 20px;
+    }
+
+    .homertimg3 button {
+        font-size: 20px;
+    }
+} */

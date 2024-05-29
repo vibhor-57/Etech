@@ -1,0 +1,137 @@
+.coursecontainer{
+    border: 5px solid purple;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    padding-bottom: 0px;
+}
+.courseimage{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.coursetopicrating{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.coursetopic{
+    padding: 18px;
+    background-image: linear-gradient(to bottom right, rgb(172, 100, 249),rgb(253 193 211));
+    font-size: 19px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.courserating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 30px;
+    font-size: 18px;
+    padding: 3px;
+    background-image: linear-gradient(to bottom right, rgb(188, 130, 250),rgb(249, 183, 255));
+}
+.courserating img{
+    width: 1.2vw;
+}
+.courserating p{
+    margin-right:10px;
+    margin-left: 5px;
+}
+.coursename{
+    margin: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+    /* margin-top: 0px; */
+}
+.coursename h1{
+    margin: 0px;
+}
+
+.courseclassesstudents{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    margin-top: 16px;
+    margin-top: 0px;
+}
+
+.courseclasses{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; 
+    margin-right: auto;  
+    padding: 5px;
+}
+
+.courseclasses img{
+    width: 2vw;
+    margin-right: 10px;
+}
+
+.coursestudents{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; 
+    margin-right: 10px;  
+    
+}
+
+.coursestudents img{
+    width: 1.5vw;
+}
+
+.coursemoneyuser{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; 
+    border-top: 1px solid black;
+    width: 100%;
+    height: min-content;
+}
+
+.coursemoney{
+    font-size: 34px;
+    margin-right:auto ;
+}
+
+.courseuser{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; 
+    margin-right: 12px; 
+    margin: 10px;
+    margin-bottom: 0px;
+    color:rgb(170, 82, 238);
+}
+.courseuser img{
+    border-radius: 100%;
+    width: 2vw;
+    margin: 10px;
+}
+.courseuser p{
+font-size: 29px;
+}
